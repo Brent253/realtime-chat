@@ -1,6 +1,12 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
+import VueChatScroll from 'vue-chat-scroll';
+
+import 'materialize-css';
+import 'materialize-css/dist/css/materialize.css';
+
+Vue.use(VueChatScroll);
 
 Vue.config.productionTip = false;
 
