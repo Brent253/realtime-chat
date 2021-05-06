@@ -30,5 +30,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Website url
 ```
-https://real-time-chat-90ef8.web.app/
+https://realtime-chat-d3256.web.app/
 ```
