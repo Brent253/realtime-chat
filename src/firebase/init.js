@@ -1,17 +1,17 @@
-import firebase from 'firebase';
-import firestore from 'firebase/firestore';
-var firebaseConfig = {
-    apiKey: "AIzaSyALWqq0FzvZnWtrvZB55QrCPWxdu6STNc0",
-    authDomain: "real-time-chat-90ef8.firebaseapp.com",
-    databaseURL: "https://real-time-chat-90ef8.firebaseio.com",
-    projectId: "real-time-chat-90ef8",
-    storageBucket: "real-time-chat-90ef8.appspot.com",
-    messagingSenderId: "768566829669",
-    appId: "1:768566829669:web:4011354ac0235f6b7fdc8c",
-    measurementId: "G-G7JZRLY421"
-  };
-  // Initialize Firebase
-  const firebaseApp = firebase.initializeApp(firebaseConfig);
-  firebaseApp.analytics();
+import firebase from "firebase";
+import firestore from "firebase/firestore";
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAyz_VZkxmPCF_imoEwjMBZ9YC7sUYAkao",
+  authDomain: "realtime-chat-d3256.firebaseapp.com",
+  projectId: "realtime-chat-d3256",
+  storageBucket: "realtime-chat-d3256.appspot.com",
+  messagingSenderId: "760831224696",
+  appId: "1:760831224696:web:cc2ea168bf0168b624368d",
+  measurementId: "G-KNDDKHR9RM",
+};
+// Initialize Firebase
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+firebaseApp.analytics();
 
-  export default firebaseApp.firestore();
+export default firebaseApp.firestore();
